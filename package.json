@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css" : "postcss src/style.css --dir dest",
-    "watch:css" : "postcss src/style.css --dir dest -w"
+    "build:css": "postcss src/style.css --dir dest",
+    "watch:css": "postcss src/style.css --dir dest -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cssnano": "^6.0.3",
     "postcss": "^8.4.35",
     "postcss-cli": "^11.0.0"
   }
