@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css" : "postcss src/style.css --dir dest"
   },
   "keywords": [],
   "author": "",
